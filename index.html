@@ -1,31 +1,80 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lee Myers Projects !</title>
-    <meta name="description" content="description" />
-    <meta name="author" content="author" />
-    <meta name="keywords" content="keywords" />
-    <link rel="stylesheet" href="./stylesheet.css" type="text/css" />
-  </head>
-  <body>
-    <div class="header">
-      <h1>Lee Myers</h1>
-      <div>
-        <ul>
-          <li>
-            <a href="#search-engine-optimization">Search Engine Optimization</a>
-          </li>
-          <li>
-            <a href="#online-reputation-management"
-              >Online Reputation Management</a
-            >
-          </li>
-          <li>
-            <a href="#social-media-marketing">Social Media Marketing</a>
-          </li>
-        </ul>
-      </div>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hello!</title>
+  <meta name="description" content="description" />
+  <meta name="author" content="author" />
+  <meta name="keywords" content="keywords" />
+  <link rel="stylesheet" href="./stylesheet.css" type="text/css" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <h1> Lee Myers </h1>
+    <div>
+      <ul>
+        <li>
+          <!-- this is how you link to a section -->
+          <!-- the values in the hrefs relate to id values down below -->
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <!-- this links to projects -->
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <!--  this links to the contact section -->
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
     </div>
-  </body>
+  </div>
+
+  <!-- About Me Section-->
+  <div id="about" class="wrap">
+    <h2>About Me</h2>
+    <p>
+      My name and about me.
+    </p>
+  </div>
+
+  <!-- Projects Section-->
+  <div id="projects" class="wrap">
+    <h2>Projects</h2>
+    <!-- top level wrapper -->
+    <a class="project-list">
+      <a href="https://leemyers16.github.io/Lee-Myers-Unique-Project/" target="_blank" id = "first-project" class="large tile">
+          My first project
+      </a>
+      <br/>
+
+      <!-- flex section for the first row -->
+      <div class="small-section">
+        <div id = "second-project"  class="small tile ">
+          My second Project
+        </div>
+        <div id = "third-project"  class="small tile ">
+          My third Project
+        </div>
+      </div>
+
+
+      </div>
+  </div>
+
+  <!-- Contact Me Section-->
+  <div id="contact" class="wrap">
+      <ul>
+        <li> <a href="">Facebook</a></li>
+        <li> <a href="">Google</a></li>
+        <li> <a href="">Phone Number</a></li>
+      </ul>
+  </div>
+
+</body>
+
 </html>
