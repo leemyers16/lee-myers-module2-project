@@ -1,3 +1,4 @@
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -7,6 +8,26 @@
 .header h1 {
     display: inline-block;
     font-size: 48px;
+}
+.header img {
+    display: flex;
+    align-items: row;
+    justify-content: space-around;
+    width: 80%;
+    padding: .5%;
+    margin: auto;
+}
+.header img {
+    max-height: 200px;
+    max-width: 126px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.header h1 {
+    display: inline-block;
+    font-size: 46px;
+    margin: 10px
 }
 
 .header h1 .seo {
@@ -30,8 +51,6 @@
     margin-left: 25px;
 }
 
-
-
 #about{
     border: solid 1px white;
 }
@@ -43,7 +62,7 @@
 }
 .wrap{
     margin: 1em;
-    padding: 10em;
+    padding: 8em;
 }
 
 .wrap p {
@@ -83,9 +102,9 @@
 }
 
 #first-project{
-    background-image: url('./assets/chicken.jpeg');
+    background-image: url('./assets/lee-m.JPG');
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: top;
     background-size: cover;
 }
 #second-project{
