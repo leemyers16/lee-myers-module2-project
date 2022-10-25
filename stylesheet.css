@@ -1,4 +1,6 @@
 
+/* adding header to start of the code */
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -9,6 +11,9 @@
     display: inline-block;
     font-size: 48px;
 }
+
+/* header to help css flow */
+
 .header img {
     display: flex;
     align-items: row;
@@ -51,6 +56,8 @@
     margin-left: 25px;
 }
 
+/* Make the about border stand out by itself */
+
 #about{
     border: solid 1px white;
 }
@@ -64,6 +71,8 @@
     margin: 1em;
     padding: 8em;
 }
+
+/* help the wrap stand out from the webapge */
 
 .wrap p {
     font-size:1.5em;
@@ -79,6 +88,9 @@
     border-radius: 10px;
     font-size: 1.5em;
 }
+
+/* put the mouse over the image to make it change slightly in color */
+
 .tile:hover{
     opacity: .5;
     cursor: pointer;
